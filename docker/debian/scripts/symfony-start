@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /var/www/symfony && composer install && echo 'Symfony app has been prepared'

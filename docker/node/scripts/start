@@ -1,0 +1,2 @@
+#!/bin/bash
+yarn install && echo 'Application has been started' && (nohup yarn serve >> /var/log/front.log 2>&1 &)
