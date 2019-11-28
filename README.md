@@ -58,7 +58,7 @@ sudo docker-compose down
 At all times, you can access in the container by bash mode.
 
 ```
-sudo ocker exec -it {container_name} bash
+sudo docker exec -it {container_name} bash
 ```
 
 ## Symfony - Backend
@@ -83,6 +83,13 @@ cacheTime: 300 #seconds
 - **Tests Location:** ./symfony/tests
 - To launch phpunit test you must be on ./symfony and launch the next command:
 ```
+1. Enter in the docker
+sudo docker exec -it swa_backend bash
+
+2.Go to symfony folder
+cd /var/www/symfony
+
+3.Install phpunit and run tests
 ./bin/phpunit 
 ```
 
