@@ -1,0 +1,8 @@
+Homeworld:
+  type: object
+  config:
+    description: "Star Wars Homeworld"
+    fields:
+      name:
+        type: "String"
+        description: "Homeworld's name"

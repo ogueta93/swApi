@@ -1,0 +1,11 @@
+Peoplelist:
+  type: object
+  config:
+    description: "People List"
+    fields:
+      character:
+        type: "[Character]"
+      page:
+        type: "Int"
+      totalCount:
+        type: "Int"

@@ -1,0 +1,3 @@
+peope:
+    path: /people
+    controller: App\Controller\SwaPeopleController::list

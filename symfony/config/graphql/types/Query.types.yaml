@@ -1,0 +1,12 @@
+Query:
+  type: object
+  config:
+    description: "Apartments ORM repository"
+    fields:
+      peopleList:
+        type: Peoplelist
+        args:
+          page:
+            description: "Page to filter"
+            type: "Int"
+        resolve: "@=resolver('people_list', [args])"

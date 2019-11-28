@@ -1,0 +1,14 @@
+Species:
+  type: object
+  config:
+    description: "Star Wars Species"
+    fields:
+      name:
+        type: "String"
+        description: "Name of a specie"
+      classification:
+        type: "String"
+        description: "classification of a specie"
+      language:
+        type: "String"
+        description: "language of a specie"

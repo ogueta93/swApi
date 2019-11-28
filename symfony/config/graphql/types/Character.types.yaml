@@ -1,0 +1,37 @@
+Character:
+  type: object
+  config:
+    description: "Star Wars Character"
+    fields:
+      id: 
+        type: "String"
+      name:
+        type: "String"
+        description: "Character's name"
+      homeworld: 
+        type: "Homeworld"
+        description: "Character's homeworld"
+      birthYear: 
+        type: "String"
+        description: "Character's birth year"
+      gender:
+        type: "String"
+        description: "Character's gender"
+      height:
+        type: "String"
+        description: "Character's height"
+      hairColor:
+        type: "String"
+        description: "Character's hair color"
+      mass:
+        type: "String"
+        description: "Character's mass"
+      skinColor:
+        type: "String"
+        description: "Character's skin color"
+      species:
+        type: "[Species]"
+        description: "Character's species"
+      created:
+        type: "String"
+        description: "Character's creation datetime"

@@ -1,0 +1,6 @@
+# This file containts the swapi configuration data
+serviceUrl: https://swapi.co
+peopleService: /api/people
+planetService: /api/planets
+speciesService: /api/species
+cacheTime: 300 #seconds
