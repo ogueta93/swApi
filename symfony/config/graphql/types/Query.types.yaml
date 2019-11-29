@@ -1,7 +1,7 @@
 Query:
   type: object
   config:
-    description: "Apartments ORM repository"
+    description: "People List Query"
     fields:
       peopleList:
         type: Peoplelist
